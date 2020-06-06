@@ -13,7 +13,7 @@ from pyecharts import GeoLines, Style
 def get_location_coordinate(location_name):
 
     api_url = 'http://api.map.baidu.com/geocoding/v3/?address='
-    api_url = f'{api_url}{quote(location_name)}&output=json&ak=XkS2ktfkaGBAaG9P3K7haGpdwwr85Uyg'
+    api_url = f'{api_url}{quote(location_name)}&output=json&ak=xxxxxxxxxxxxxxxxxx'
     result = urlopen(api_url)
     result = json.loads(result.read().decode())['result']['location']
     return result['lng'], result['lat']
