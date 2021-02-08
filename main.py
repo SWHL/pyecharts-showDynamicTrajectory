@@ -52,8 +52,6 @@ def plot_geolines(plotting_data, geo_cities_coords):
 
 
 if __name__ == '__main__':
-    # location_name_list = ['党城乡寨里村', '党城乡党城村', '东口南村', '曲阳县孝墓镇万华中学',
-    #                       '河北省曲阳县第一高级中学', '曲阳县惠友购物广场']
     location_name_list = ['北京', '郑州', '盐城', '高雄', '广州', '三亚', '成都', '拉萨', '乌鲁木齐', '银川',
                           '呼和浩特', '漠河', '哈尔滨', '长春', '沈阳', '北京']
     geo_cities_coords = {}
